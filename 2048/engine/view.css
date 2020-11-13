@@ -1,0 +1,107 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 52px;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: #e7e7e7;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.tile {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 106.25px;
+    height: 106.25px;
+}
+
+.tile {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.tile-2 {
+    background-color: rgba(171, 165, 165, 0.8);
+}
+.tile-4 {
+    background-color: rgba(220, 201, 167, 0.8);
+}
+.tile-8 {
+    background-color: rgba(255, 180, 0, 0.8);
+    box-shadow: 0 0 5px 1px rgba(255, 180, 0, 0.4);
+}
+.tile-16 {
+    background-color: rgba(236, 123, 92, 0.8);
+    box-shadow: 0 0 5px 1px rgba(236, 123, 92, 0.4);
+}
+.tile-32 {
+    background-color: rgba(197, 216, 109, 0.8);
+    box-shadow: 0 0 5px 1px rgba(197, 216, 109, 0.4);
+}
+.tile-64 {
+    background-color: rgba(4, 167, 119, 0.8);
+    box-shadow: 0 0 5px 1px rgba(4, 167, 119, 0.4);
+}
+.tile-128 {
+    background-color: rgba(164, 128, 207, 0.8);
+    box-shadow: 0 0 5px 1px rgba(164, 128, 207, 0.4);
+}
+.tile-256 {
+    background-color: rgba(244, 96, 54, 0.8);
+    box-shadow: 0 0 5px 1px rgba(244, 96, 54, 0.4);
+}
+.tile-512 {
+    background-color: rgba(130, 36, 49, 0.8);
+    box-shadow: 0 0 5px 1px rgba(130, 36, 49, 0.4);
+}
+.tile-1024 {
+    background-color: rgba(35, 46, 209, 0.8);
+    box-shadow: 0 0 5px 1px rgba(35, 46, 209, 0.4);
+}
+.tile-2048 {
+    background-color: rgba(0, 161, 228, 0.8);
+    box-shadow: 0 0 5px 1px rgba(0, 161, 228, 0.4);
+}
+
+.board {
+    margin: auto;
+    border: thin solid black;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    background-color: #999999;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.message {
+    font-size: 30px;
+    text-align: center;
+    border: thin solid black;
+    background-color: #999999;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.score {
+    font-size: 30px;
+    text-align: center;
+    border: thin solid black;
+    background-color: #999999;
+    border-radius: 5px;
+    margin-top: 20px;
+}
